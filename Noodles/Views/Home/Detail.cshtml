@@ -1,0 +1,18 @@
+@model Noodles.Models.Noodle
+
+<div>
+    <h1>@Model.Name</h1>
+</div>
+
+<div class="thumbnail">
+    <img class="img-thumbnail" src="@Model.ImageUrl" alt="" />
+    <div class="caption-full">
+        @{
+            var price = string.Format("{0:F2}", Model.Price);
+        }
+        <h3 class="pull-right">$ @price </h3>
+        <h3>@Model.Name</h3>
+        <h4>@Model.ShortDescription</h4>
+        <p>@Model.LongDescription</p>
+    </div>
+</div>
