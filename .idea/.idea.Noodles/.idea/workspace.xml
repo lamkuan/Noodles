@@ -7,71 +7,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5a22b317-0c4a-47dd-93ba-fdcda0cdca36" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles.sln" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/AppDbContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/DbInitializer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/Feedback.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/FeedbackRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/IFeedbackRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/INoodleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/MockFeedbackRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/MockNoodleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/Noodle.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Models/NoodleRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Noodles.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Properties/launchSettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/ViewModels/HomeViewModel.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Feedback/FeedbackComplete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Feedback/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Home/Detail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Home/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Shared/_Layout.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/Test/Contact.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/Views/_ViewStart.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/appsettings.Development.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/appsettings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/controllers/FeedbackController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/controllers/HomeController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/controllers/NoodleController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/controllers/Test.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/controllers/UserController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/content/site.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/Thumbs.db" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/一窝丝.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/三细.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/二柱子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/二细.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/大宽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/毛细.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/细.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/荞麦棱子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/薄宽.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/images/韭叶子.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Noodles/wwwroot/lib/bootstrap/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
+    <list default="true" id="5a22b317-0c4a-47dd-93ba-fdcda0cdca36" name="更改" comment="12e3">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/dataSources/72776389-47df-4366-afeb-7987816df624.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/dataSources/72776389-47df-4366-afeb-7987816df624/storage_v2/_src_/schema/NoodleDb.TRSNWQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.Noodles/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles.sln.DotSettings.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Login.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Login.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Logout.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Logout.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Register.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/Register.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/Account/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/_ViewImports.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Areas/Identity/Pages/_ViewStart.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226181017_Initial.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226181017_Initial.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226184821_hello.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226184821_hello.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226190143_hello2.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226190143_hello2.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226191042_hello3.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226191042_hello3.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226191108_hello4.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226191108_hello4.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226223315_hello6.Designer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/20241226223315_hello6.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Migrations/AppDbContextModelSnapshot.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/ScaffoldingReadMe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Views/Shared/_LoginPartial.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Noodles/Views/_ViewImports.cshtml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +52,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/lamkuan/Noodles.git",
+    "accountId": "b55d86e2-31f7-4c10-9515-bc39d2f198af"
+  }
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/6d5d64e8fdc04759a349f5f29b853e9fb58200/d6/995a6559/Decimal.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/03263cc689d4e3232ee8c5e8e23807d11eaa22da3ad77f137bb9eb8865c74/EndpointRouteBuilderExtensions.cs" root0="SKIP_HIGHLIGHTING" />
@@ -159,8 +133,25 @@
       <updated>1735193891985</updated>
       <workItem from="1735193893053" duration="12739000" />
       <workItem from="1735221133054" duration="17961000" />
-      <workItem from="1735241557256" duration="10693000" />
+      <workItem from="1735241557256" duration="11012000" />
     </task>
+    <task id="LOCAL-00001" summary="Init">
+      <option name="closed" value="true" />
+      <created>1735255386017</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1735255386017</updated>
+    </task>
+    <task id="LOCAL-00002" summary="12e3">
+      <option name="closed" value="true" />
+      <created>1735255594590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1735255594590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,5 +160,8 @@
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Init" />
+    <MESSAGE value="12e3" />
+    <option name="LAST_COMMIT_MESSAGE" value="12e3" />
   </component>
 </project>
